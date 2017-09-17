@@ -12,7 +12,7 @@ with open('LICENSE') as f:
 setup(
     name='skmd',
     version='0.0.1',
-    description='Sub Kepler Machine Data',
+    description='Sub Kepler Machine Data Client',
     long_description=readme,
     author='Hilaly Amine',
     author_email='hilalyamine@gmail.com',

@@ -21,6 +21,9 @@ class ConfigBuildErrored(Exception):
 
 # Predefined usefull checks
 
+def _machine_config_path():
+    pass
+
 def machine_config_file_exist(directory, _file):
     exist = os.ckdir("{0}/{1}".format(directory, _file))
     return exist
